@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E6B39FB2A85614E00AD39F4 /* WasfaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B39FA2A85614E00AD39F4 /* WasfaApp.swift */; };
+		1E6B39FD2A85614E00AD39F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B39FC2A85614E00AD39F4 /* ContentView.swift */; };
+		1E6B39FF2A85615000AD39F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6B39FE2A85615000AD39F4 /* Assets.xcassets */; };
+		1E6B3A022A85615000AD39F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6B3A012A85615000AD39F4 /* Preview Assets.xcassets */; };
+		1E6B3A042A85615000AD39F4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B3A032A85615000AD39F4 /* Persistence.swift */; };
+		1E6B3A072A85615000AD39F4 /* Wasfa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B3A052A85615000AD39F4 /* Wasfa.xcdatamodeld */; };
+		1E6B3A112A85615100AD39F4 /* WasfaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B3A102A85615100AD39F4 /* WasfaTests.swift */; };
+		1E6B3A1B2A85615100AD39F4 /* WasfaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B3A1A2A85615100AD39F4 /* WasfaUITests.swift */; };
+		1E6B3A1D2A85615100AD39F4 /* WasfaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B3A1C2A85615100AD39F4 /* WasfaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E6B3A0D2A85615100AD39F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E6B39EF2A85614E00AD39F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E6B39F62A85614E00AD39F4;
+			remoteInfo = Wasfa;
+		};
+		1E6B3A172A85615100AD39F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E6B39EF2A85614E00AD39F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E6B39F62A85614E00AD39F4;
+			remoteInfo = Wasfa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E6B39F72A85614E00AD39F4 /* Wasfa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wasfa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6B39FA2A85614E00AD39F4 /* WasfaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasfaApp.swift; sourceTree = "<group>"; };
+		1E6B39FC2A85614E00AD39F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E6B39FE2A85615000AD39F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E6B3A012A85615000AD39F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E6B3A032A85615000AD39F4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1E6B3A062A85615000AD39F4 /* Wasfa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wasfa.xcdatamodel; sourceTree = "<group>"; };
+		1E6B3A0C2A85615100AD39F4 /* WasfaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WasfaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6B3A102A85615100AD39F4 /* WasfaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasfaTests.swift; sourceTree = "<group>"; };
+		1E6B3A162A85615100AD39F4 /* WasfaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WasfaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6B3A1A2A85615100AD39F4 /* WasfaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasfaUITests.swift; sourceTree = "<group>"; };
+		1E6B3A1C2A85615100AD39F4 /* WasfaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasfaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6B39F42A85614E00AD39F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6B3A092A85615100AD39F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6B3A132A85615100AD39F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6B39EE2A85614E00AD39F4 = {
+			isa = PBXGroup;
+			children = (
+				1E6B39F92A85614E00AD39F4 /* Wasfa */,
+				1E6B3A0F2A85615100AD39F4 /* WasfaTests */,
+				1E6B3A192A85615100AD39F4 /* WasfaUITests */,
+				1E6B39F82A85614E00AD39F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E6B39F82A85614E00AD39F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B39F72A85614E00AD39F4 /* Wasfa.app */,
+				1E6B3A0C2A85615100AD39F4 /* WasfaTests.xctest */,
+				1E6B3A162A85615100AD39F4 /* WasfaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E6B39F92A85614E00AD39F4 /* Wasfa */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B39FA2A85614E00AD39F4 /* WasfaApp.swift */,
+				1E6B39FC2A85614E00AD39F4 /* ContentView.swift */,
+				1E6B39FE2A85615000AD39F4 /* Assets.xcassets */,
+				1E6B3A032A85615000AD39F4 /* Persistence.swift */,
+				1E6B3A052A85615000AD39F4 /* Wasfa.xcdatamodeld */,
+				1E6B3A002A85615000AD39F4 /* Preview Content */,
+			);
+			path = Wasfa;
+			sourceTree = "<group>";
+		};
+		1E6B3A002A85615000AD39F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B3A012A85615000AD39F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E6B3A0F2A85615100AD39F4 /* WasfaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B3A102A85615100AD39F4 /* WasfaTests.swift */,
+			);
+			path = WasfaTests;
+			sourceTree = "<group>";
+		};
+		1E6B3A192A85615100AD39F4 /* WasfaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B3A1A2A85615100AD39F4 /* WasfaUITests.swift */,
+				1E6B3A1C2A85615100AD39F4 /* WasfaUITestsLaunchTests.swift */,
+			);
+			path = WasfaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E6B39F62A85614E00AD39F4 /* Wasfa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6B3A202A85615100AD39F4 /* Build configuration list for PBXNativeTarget "Wasfa" */;
+			buildPhases = (
+				1E6B39F32A85614E00AD39F4 /* Sources */,
+				1E6B39F42A85614E00AD39F4 /* Frameworks */,
+				1E6B39F52A85614E00AD39F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wasfa;
+			productName = Wasfa;
+			productReference = 1E6B39F72A85614E00AD39F4 /* Wasfa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E6B3A0B2A85615100AD39F4 /* WasfaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6B3A232A85615100AD39F4 /* Build configuration list for PBXNativeTarget "WasfaTests" */;
+			buildPhases = (
+				1E6B3A082A85615100AD39F4 /* Sources */,
+				1E6B3A092A85615100AD39F4 /* Frameworks */,
+				1E6B3A0A2A85615100AD39F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E6B3A0E2A85615100AD39F4 /* PBXTargetDependency */,
+			);
+			name = WasfaTests;
+			productName = WasfaTests;
+			productReference = 1E6B3A0C2A85615100AD39F4 /* WasfaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E6B3A152A85615100AD39F4 /* WasfaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6B3A262A85615100AD39F4 /* Build configuration list for PBXNativeTarget "WasfaUITests" */;
+			buildPhases = (
+				1E6B3A122A85615100AD39F4 /* Sources */,
+				1E6B3A132A85615100AD39F4 /* Frameworks */,
+				1E6B3A142A85615100AD39F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E6B3A182A85615100AD39F4 /* PBXTargetDependency */,
+			);
+			name = WasfaUITests;
+			productName = WasfaUITests;
+			productReference = 1E6B3A162A85615100AD39F4 /* WasfaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E6B39EF2A85614E00AD39F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1E6B39F62A85614E00AD39F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1E6B3A0B2A85615100AD39F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1E6B39F62A85614E00AD39F4;
+					};
+					1E6B3A152A85615100AD39F4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1E6B39F62A85614E00AD39F4;
+					};
+				};
+			};
+			buildConfigurationList = 1E6B39F22A85614E00AD39F4 /* Build configuration list for PBXProject "Wasfa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E6B39EE2A85614E00AD39F4;
+			productRefGroup = 1E6B39F82A85614E00AD39F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E6B39F62A85614E00AD39F4 /* Wasfa */,
+				1E6B3A0B2A85615100AD39F4 /* WasfaTests */,
+				1E6B3A152A85615100AD39F4 /* WasfaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E6B39F52A85614E00AD39F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6B3A022A85615000AD39F4 /* Preview Assets.xcassets in Resources */,
+				1E6B39FF2A85615000AD39F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6B3A0A2A85615100AD39F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6B3A142A85615100AD39F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6B39F32A85614E00AD39F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6B3A072A85615000AD39F4 /* Wasfa.xcdatamodeld in Sources */,
+				1E6B3A042A85615000AD39F4 /* Persistence.swift in Sources */,
+				1E6B39FD2A85614E00AD39F4 /* ContentView.swift in Sources */,
+				1E6B39FB2A85614E00AD39F4 /* WasfaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6B3A082A85615100AD39F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6B3A112A85615100AD39F4 /* WasfaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6B3A122A85615100AD39F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6B3A1B2A85615100AD39F4 /* WasfaUITests.swift in Sources */,
+				1E6B3A1D2A85615100AD39F4 /* WasfaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E6B3A0E2A85615100AD39F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E6B39F62A85614E00AD39F4 /* Wasfa */;
+			targetProxy = 1E6B3A0D2A85615100AD39F4 /* PBXContainerItemProxy */;
+		};
+		1E6B3A182A85615100AD39F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E6B39F62A85614E00AD39F4 /* Wasfa */;
+			targetProxy = 1E6B3A172A85615100AD39F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E6B3A1E2A85615100AD39F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E6B3A1F2A85615100AD39F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E6B3A212A85615100AD39F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wasfa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iti.Wasfa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E6B3A222A85615100AD39F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wasfa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iti.Wasfa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E6B3A242A85615100AD39F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iti.WasfaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wasfa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wasfa";
+			};
+			name = Debug;
+		};
+		1E6B3A252A85615100AD39F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iti.WasfaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wasfa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wasfa";
+			};
+			name = Release;
+		};
+		1E6B3A272A85615100AD39F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iti.WasfaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wasfa;
+			};
+			name = Debug;
+		};
+		1E6B3A282A85615100AD39F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iti.WasfaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wasfa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E6B39F22A85614E00AD39F4 /* Build configuration list for PBXProject "Wasfa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6B3A1E2A85615100AD39F4 /* Debug */,
+				1E6B3A1F2A85615100AD39F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6B3A202A85615100AD39F4 /* Build configuration list for PBXNativeTarget "Wasfa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6B3A212A85615100AD39F4 /* Debug */,
+				1E6B3A222A85615100AD39F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6B3A232A85615100AD39F4 /* Build configuration list for PBXNativeTarget "WasfaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6B3A242A85615100AD39F4 /* Debug */,
+				1E6B3A252A85615100AD39F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6B3A262A85615100AD39F4 /* Build configuration list for PBXNativeTarget "WasfaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6B3A272A85615100AD39F4 /* Debug */,
+				1E6B3A282A85615100AD39F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E6B3A052A85615000AD39F4 /* Wasfa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E6B3A062A85615000AD39F4 /* Wasfa.xcdatamodel */,
+			);
+			currentVersion = 1E6B3A062A85615000AD39F4 /* Wasfa.xcdatamodel */;
+			path = Wasfa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E6B39EF2A85614E00AD39F4 /* Project object */;
+}
